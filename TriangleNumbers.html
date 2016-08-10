@@ -8,10 +8,25 @@
 //Sample Output:
 //4
 
-	var arrTriangleNumbers = [];			//массив триугольных цифр
-	var SatrtNumber=0;						//начало диапазона
-	var FinalNumber=9223372036854775807;	//конец диапазона
-	var TriangleNumber;						//триугольное число
+	var StartNumber = 0;									//начало диапазона
+	var FinalNumber = 9223372036854775807;					//конец диапазона
+	var Input;												//входящее число
+	var Output;												//выходяшее число
 
+	Input = parseInt(prompt("Вводите число"));				//вводим число и преобразуем в цифру
+	
+	if(Input > 0 && Input <= FinalNumber && !isNaN(Input)){	//проверяем ввод на предмет цифра не цифра и положительность и диапазон
+		for(var i=0; i<=Input; i++){						
+			StartNumber = StartNumber + i;					//поочереди проверяем на совпадение с вводимим числом	
+			if(StartNumber == Input){						//если совпадение есть значит это триуголная цифра
+				Output = i;									//а i индекс треугольника
+				alert("Input: " + Input + "\n" + 			
+						"Output: " + Output );
+				break;
+			}
+		}
+		if(Output){											//если есть совподение то...
 
+		}else(alert(0))										//иначе выводим 0 
+	}else(alert(0))											//во всех остальных случаях тоже выводим ноль
 </script>
