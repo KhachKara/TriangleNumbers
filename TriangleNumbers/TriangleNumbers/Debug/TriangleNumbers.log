@@ -1,5 +1,4 @@
 ﻿  TriangleNumbers.cpp
-d:\мэси-зоп-18231-зоп-1420б\git_hub\js\trianglenumbers\trianglenumbers.git\trianglenumbers\trianglenumbers\trianglenumbers.cpp(16): warning C4305: инициализация: усечение из "__int64" к "long double"
-cl : командная строка warning D9028: сбой минимальной повторной сборки, возврат к обычной сборке
+d:\мэси-зоп-18231-зоп-1420б\git_hub\js\trianglenumbers\trianglenumbers.git\trianglenumbers\trianglenumbers\trianglenumbers.cpp(13): warning C4305: инициализация: усечение из "__int64" к "long double"
   TriangleNumbers.vcxproj -> D:\МЭСИ-ЗОП-18231-ЗОП-1420б\GIT_HUB\JS\TriangleNumbers\TriangleNumbers.git\TriangleNumbers\Debug\TriangleNumbers.exe
   TriangleNumbers.vcxproj -> D:\МЭСИ-ЗОП-18231-ЗОП-1420б\GIT_HUB\JS\TriangleNumbers\TriangleNumbers.git\TriangleNumbers\Debug\TriangleNumbers.pdb (Full PDB)
